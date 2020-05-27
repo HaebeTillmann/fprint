@@ -16,8 +16,7 @@ def fprint(text, text_color = None, text_style = None, background_color = None):
         "bold": "1",
         "underline" : "4",
         "italic": "3",
-        "blink" : "5",
-        "crossed" : "9"
+        "blink" : "5"
     }
     background_colors = {
         "black": "40",
