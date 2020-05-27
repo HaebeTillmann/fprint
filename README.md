@@ -27,9 +27,8 @@ fprint(<"text">, <"text color">, <"text style">, <"background color">)
 - italic
 - blink
 
-## Example
+## Examples
 
-```
-from fprint import fprint
-
-fprint("hello world", "red", "bold", "blue")
+<p align="center">
+  <img src="./media/fprint.png">
+</p>
