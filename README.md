@@ -1,5 +1,5 @@
 # fprint
-Formatted printing for Python
+Formatted printing in Python
 
 ## Usage
 
