@@ -1,3 +1,5 @@
+import sys
+
 def fprint(text, text_color = None, text_style = None, background_color = None):
     color = ""
     style = ""
@@ -45,3 +47,10 @@ def fprint(text, text_color = None, text_style = None, background_color = None):
     prefix = f"\033[{color}{style}{back_color}m"
 
     print(f"{prefix}{text}\033[0m")
+
+
+def prev_line():
+    sys.stdout.write("\033[F")
+
+def delete_line():
+    sys.stdout.write("\033[K")
