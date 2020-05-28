@@ -6,7 +6,7 @@ Formatted printing in Python
 
 #### Formatted printing:
 ```python
-from fprint import *
+from fprint import fprint
 
 fprint(<"text">, <"text color">, <"text style">, <"background color">)
 ```
