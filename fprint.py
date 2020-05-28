@@ -72,8 +72,5 @@ def fstr(text, text_color = None, text_style = None, background_color = None):
     return(f"{prefix}{text}\033[0m")
 
 
-def prev_line():
+def prev():
     sys.stdout.write("\033[F")
-
-def delete():
-    sys.stdout.write("\033[K")
