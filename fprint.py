@@ -75,5 +75,5 @@ def fstr(text, text_color = None, text_style = None, background_color = None):
 def prev_line():
     sys.stdout.write("\033[F")
 
-def delete_line():
+def delete():
     sys.stdout.write("\033[K")
